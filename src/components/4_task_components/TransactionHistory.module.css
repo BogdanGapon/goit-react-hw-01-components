@@ -1,0 +1,19 @@
+.transactionTable {
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.headLine {
+  display: block;
+  color: rgba(255, 255, 255, 0.95);
+  text-transform: uppercase;
+}
+th {
+  width: 100px;
+  background-color: rgb(31, 119, 149);
+}
+
+.LineWrapper:nth-child(2n) {
+  background-color: #cbd8dd;
+}

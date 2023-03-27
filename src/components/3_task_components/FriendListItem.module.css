@@ -1,0 +1,17 @@
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.isOnline {
+  composes: status;
+  background-color: green;
+}
+.avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
